@@ -1,0 +1,16 @@
+# Maven build folder - never push this
+target/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+*.class
+
+# Environment - never push secrets
+.env
+application-prod.properties
+
+# IDE
+*.iml
+.idea/
