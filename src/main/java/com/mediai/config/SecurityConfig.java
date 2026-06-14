@@ -52,7 +52,7 @@ public class SecurityConfig {
         CorsConfiguration cfg = new CorsConfiguration();
        cfg.setAllowedOrigins(List.of(
                    "http://localhost:3000",
-                   "https://medi-frontend-teal.vercel.app"));
+                   "https://vishal-mocha.vercel.app"));
         cfg.setAllowedMethods(List.of("GET","POST","PUT","DELETE","OPTIONS"));
         cfg.setAllowedHeaders(List.of("*"));
         cfg.setAllowCredentials(true);
